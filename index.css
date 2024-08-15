@@ -132,7 +132,7 @@ nav a{
     background-color: rgba(159, 209, 159, 0.973);
     position: absolute;
     width: 250px;
-    height: 190px;
+    height: 158px;
     left: 1px;
     top: 230px;
  }
@@ -140,21 +140,61 @@ nav a{
     background-color: rgba(159, 209, 159, 0.973);
     position: absolute;
     width: 250px;
-    height: 190px;
+    height: 158px;
     left: 1px;
     top: 230px;
  }
  .btn1{
     color: rgb(43, 42, 42);
  }
- footer{
-    background-color: rgb(6, 6, 6);
-    display: flex;
+ footer h6 {
+   font-weight: bold;
+   font-size: 16px;
+   margin-bottom: 1rem;
  }
- .row{
-    color: white;
+ 
+ footer a {
+   text-decoration: none;
  }
- .row1{
-    
+ footer .btn-outline-light {
+   border: 1px solid #fff;
+   margin-top: 1rem;
  }
+ 
+ footer .fa {
+   font-size: 1.25rem;
+ }
+ 
+ footer .fa:hover {
+   color: #fafafa;
+ }
+ .medias{
+   justify-content:
+ }
+ .col-lg-2 {
+   font-size: 12px;
+   line-height: 20px;
+ }
+ .main-stock{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   width: 90%;
+   margin: auto;
+}
+
+ 
+ @media (max-width: 992px) {
+   .card-body {
+       text-align: center;
+   }
+ 
+   .btn-sm {
+       margin-top: 0.5rem;
+   }
+ }
+ @media screen and (max-width: 300px) {
+     div.example {
+       display: none;
+     }
+ } 
  
